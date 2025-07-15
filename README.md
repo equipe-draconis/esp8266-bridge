@@ -4,10 +4,10 @@
 
 Este projeto é dedicado a realizar a comunicação da Kakuteh7 com a base em solo , usando como bridge uma esp8266.
 
-![Conexão](image.png)
-![Kakute H7](image-1.png)
-![Esp8266](image-2.png)
-![pinos esp8266](image-3.png)
+![Conexão](images/image.png)
+![Kakute H7](images/image-1.png)
+![Esp8266](images/image-2.png)
+![pinos esp8266](images/image-3.png)
 
 ## Pinos
 
