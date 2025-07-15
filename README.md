@@ -4,7 +4,7 @@
 
 Este projeto é dedicado a realizar a comunicação da Kakuteh7 com a base em solo , usando como bridge uma esp8266.
 
-![Conexão](images/image.png)
+![Conexão](images/image.png)j
 ![Kakute H7](images/image-1.png)
 ![Esp8266](images/image-2.png)
 ![pinos esp8266](images/image-3.png)
@@ -23,11 +23,14 @@ A tabela a seguir mostra a correspondência de conexões entre a **Kakute H7** e
 | `GND`          | `GND`        | Terra comum (referência elétrica entre os dispositivos) |
 
 ## Observações Importantes
+- **Pinos**:
+- Os pinos mencionados na tabela são os pinos de telemetria
 
 - **Alimentação**:
   - A Kakute H7 geralmente opera com **5V**, mas pode aceitar até **9V–12V** no pino `Vin`.
   - O **ESP8266 NÃO deve ser alimentado com 5V ou 9V diretamente**. Ele precisa de **3.3V** no pino `VCC`.
   - Portanto, **NÃO conecte a Vin da Kakute diretamente ao ESP8266**. Utilize um **regulador de tensão 3.3V** ou um **conversor step-down adequado**.
+  - o esp8266 possui conversor de tensão , caso a placa seja trocada , deve ser verificado na datashet susa respectivas caracteristicas.
 
 - **Níveis de Sinal (RX/TX)**:
   - A Kakute H7 e o ESP8266 operam com sinais de **3.3V**, o que permite comunicação UART **direta e segura** entre os dois sem necessidade de conversores de nível lógico.
