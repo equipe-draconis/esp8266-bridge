@@ -24,7 +24,7 @@ A tabela a seguir mostra a correspondência de conexões entre a **Kakute H7** e
 
 ## Observações Importantes
 - **Pinos**:
-- Os pinos mencionados na tabela são os pinos de telemetria
+  - Os pinos mencionados na tabela são os pinos de telemetria
 
 - **Alimentação**:
   - A Kakute H7 geralmente opera com **5V**, mas pode aceitar até **9V–12V** no pino `Vin`.
